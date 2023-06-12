@@ -146,17 +146,9 @@ app.post("/growtopia/server_data.php", (req, res) => {
     }
   });
 
-var developer = "ToriKuru";
+var developer = "";
 var udpport = 17091;
 
 app.listen(PORT + udpport, function () {
-    console.log(`                                                                     
- ████████  ██████  ██████  ██ ██   ██ ██    ██ ██████  ██    ██ 
-    ██    ██    ██ ██   ██ ██ ██  ██  ██    ██ ██   ██ ██    ██ 
-    ██    ██    ██ ██████  ██ █████   ██    ██ ██████  ██    ██ 
-    ██    ██    ██ ██   ██ ██ ██  ██  ██    ██ ██   ██ ██    ██ 
-    ██     ██████  ██   ██ ██ ██   ██  ██████  ██   ██  ██████  
-
-             Ultimate Protection, Made By ${developer}
-                 Listening On Port ${PORT}, ${udpport}`);
+    console.log(`Server Is Online`);
 });
